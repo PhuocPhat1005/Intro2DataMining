@@ -54,10 +54,10 @@ should be taken and why?
 * To perform data normalization, let’s address the following questions:
     * **Need for Normalization:**  Does the data contain features with different scales?
     * **Normalization Techniques:** Which normalization techniques should be applied? Why?
-            * **Min-Max Scaling** $$X_{\text{scaled}} = \displaystyle \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}} \times (X_{\text{max_new}} - X_{\text{min_new}}) + X_{\text{min_new}}$$
-            * **Decimal Scaling** $$X_{\text{scaled}} = \displaystyle \frac{X}{10^j}$$
-            * **Z-score Standardization** $$X_{\text{normalized}} = \displaystyle \frac{X - \mu}{\sigma}$$
-            * Are there any other normalization methods (e.g., **Robust Scaling**) that can handle outliers effectively?
+      * **Min-Max Scaling** $$X_{\text{scaled}} = \displaystyle \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}} \times (X_{\text{max-new}} - X_{\text{min-new}}) + X_{\text{min-new}}$$
+      * **Decimal Scaling** $$X_{\text{scaled}} = \displaystyle \frac{X}{10^j}$$
+      * **Z-score Standardization** $$X_{\text{normalized}} = \displaystyle \frac{X - \mu}{\sigma}$$
+      * Are there any other normalization methods (e.g., **Robust Scaling**) that can handle outliers effectively?
 ### **2.4. Data Discretization**
 * `Data Discretization` is a preprocessing technique that transforms continuous data into intervals. This step is useful for simplifying data patterns and is often used in machine learning algorithms that work better with categorical data.
 * To perform data discretization, let’s address the following questions:
